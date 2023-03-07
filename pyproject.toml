@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "anonymous-telegram-chat"
+version = "0.1.0"
+description = "Telegram bot for anonymous chatting"
+authors = ["Danil Sidoruk <danilsidoruknv@yandex.ru>"]
+license = "The Unlicense"
+readme = "README.md"
+packages = [{include = "anonymous_telegram_chat"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiogram = "^2.25.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
