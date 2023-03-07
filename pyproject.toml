@@ -10,6 +10,7 @@ packages = [{include = "anonymous_telegram_chat"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 aiogram = "^2.25.1"
+python-dotenv = "^1.0.0"
 
 
 [build-system]
